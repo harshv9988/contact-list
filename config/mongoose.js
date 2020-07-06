@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 //connect to database
-mongoose.connect('mongodb+srv://mongoUser:mongoUser@cluster0.qyh17.mongodb.net/<dbname>?retryWrites=true&w=majority');
+mongoose.connect('mongodb+srv://mongoUser:mongoUser@cluster0.qyh17.mongodb.net/test?retryWrites=true&w=majority');
 
 //acquire and check connection
 
